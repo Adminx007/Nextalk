@@ -1,0 +1,15 @@
+Nextalk/
+├── css/
+├── js/
+├── assets/
+├── index.html
+├── login.html
+├── signup.html
+├── home.html
+├── chat.html
+├── profile.html
+├── firebase.json
+├── firestore.rules
+├── README.md
+├── LICENSE
+└── .gitignore
