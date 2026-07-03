@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nextalk Chat</title>
 
+<link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+
+<header class="topbar">
+<button onclick="history.back()">←</button>
+<h2 id="chatName">Loading...</h2>
+</header>
+
+<div id="messages" class="messages"></div>
+
+<div class="composer">
+<input
+type="text"
+id="message"
+placeholder="Type a message...">
+
+<button id="sendBtn">Send</button>
+</div>
+
+<script type="module" src="js/chat.js"></script>
+
+</body>
+</html>
